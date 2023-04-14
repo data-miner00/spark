@@ -7,6 +7,7 @@ from pyspark.sql.types import StructType, StructField, IntegerType, StringType
 spark: SparkSession = SparkSession.builder.appName("sandbox").getOrCreate()
 spark.sparkContext.setLogLevel("WARN")
 
+
 @dataclass
 class Post:
     userId: int
@@ -14,12 +15,15 @@ class Post:
     title: str
     body: str
 
-schema = StructType([
-    StructField("id", IntegerType(), True),
-    StructField("userId", IntegerType(), True),
-    StructField("title", StringType(), True),
-    StructField("body", StringType(), True)
-])
+
+schema = StructType(
+    [
+        StructField("id", IntegerType(), True),
+        StructField("userId", IntegerType(), True),
+        StructField("title", StringType(), True),
+        StructField("body", StringType(), True),
+    ]
+)
 
 url = "https://jsonplaceholder.typicode.com/posts"
 
