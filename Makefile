@@ -9,8 +9,11 @@ clean:
 	if exist "./build" rd /s /q build
 
 generate:
-	pipenv lock -r --dev
+	pipenv lock -r --dev > requirements.txt
 
 notebook:
 	jupyter notebook
+
+format:
+	black .
 endif
