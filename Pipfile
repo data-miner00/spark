@@ -9,6 +9,7 @@ numpy = "*"
 pandas = "*"
 matplotlib = "*"
 notebook = "*"
+requests = "*"
 
 [dev-packages]
 pytest = "*"
