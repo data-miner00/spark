@@ -16,3 +16,13 @@ A sandbox for me to explore PySpark.
 - [Getting Started With PySpark](https://www.datacamp.com/tutorial/pyspark-tutorial-getting-started-with-pyspark)
 - [PySpark Tutorial : A beginner's Guide 2023](https://www.mygreatlearning.com/blog/pyspark-tutorial-for-beginners/)
 - [PySpark Tutorial for Beginners: Learn with EXAMPLES](https://www.guru99.com/pyspark-tutorial.html)
+- [Getting Started with PySpark | Skytowner](https://www.skytowner.com/explore/getting_started_with_pyspark)
+
+## Blog
+
+- [PySpark Unit Test Best Practices](https://blog.cellenza.com/en/data/pyspark-unit-test-best-practices/)
+- [Faster PySpark Unit Tests](https://medium.com/constructor-engineering/faster-pyspark-unit-tests-1cb7dfa6bdf6)
+
+## Stack Overflow
+
+- [Way to concatenate Array of structs](https://stackoverflow.com/questions/63975052/way-to-concatenate-array-of-structs)
