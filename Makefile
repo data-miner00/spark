@@ -16,4 +16,7 @@ notebook:
 
 format:
 	black .
+
+test:
+	python -m pytest tests/
 endif
