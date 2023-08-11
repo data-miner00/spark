@@ -19,4 +19,7 @@ format:
 
 test:
 	python -m pytest tests/
+
+quick:
+	python -m pytest tests/ -m "not slow"
 endif

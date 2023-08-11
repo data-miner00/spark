@@ -7,7 +7,7 @@ def __randomize(_):
     return x * x + y * y < 1
 
 
-def generate_pi(sc: pyspark.SparkContext, num_samples=100_000_000):
+def generate_pi(sc: pyspark.SparkContext, num_samples=100_000_000) -> float:
     count = sc.parallelize(range(0, num_samples)).filter(__randomize).count()
     pi = 4 * count / num_samples
 
