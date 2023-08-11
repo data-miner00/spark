@@ -6,7 +6,7 @@ name = "pypi"
 [packages]
 pyspark = "==3.3.2"
 numpy = "*"
-pandas = "*"
+pandas = "==1.5.3"
 matplotlib = "*"
 notebook = "*"
 requests = "*"
