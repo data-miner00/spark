@@ -22,4 +22,7 @@ test:
 
 quick:
 	python -m pytest tests/ -m "not slow"
+
+current:
+	python -m pytest tests/ -m current
 endif
