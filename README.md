@@ -22,6 +22,7 @@ A sandbox for me to explore PySpark.
 
 - [PySpark Unit Test Best Practices](https://blog.cellenza.com/en/data/pyspark-unit-test-best-practices/)
 - [Faster PySpark Unit Tests](https://medium.com/constructor-engineering/faster-pyspark-unit-tests-1cb7dfa6bdf6)
+- [Solving 5 Mysterious Spark Errors](https://medium.com/@yhoso/resolving-weird-spark-errors-f34324943e1c)
 
 ## Stack Overflow
 
