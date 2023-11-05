@@ -27,3 +27,9 @@ A sandbox for me to explore PySpark.
 ## Stack Overflow
 
 - [Way to concatenate Array of structs](https://stackoverflow.com/questions/63975052/way-to-concatenate-array-of-structs)
+
+## GitHub Resources
+
+- [pyspark-template](https://github.com/nsphung/pyspark-template/)
+- [pyspark-cheatsheet](https://github.com/cartershanklin/pyspark-cheatsheet)
+- [spark-py-notebooks](https://github.com/jadianes/spark-py-notebooks)

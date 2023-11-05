@@ -1,8 +1,8 @@
-| Parse Mode      | Behaviour                                                         |
-| --------------- | ----------------------------------------------------------------- |
-| `PERMISSIVE`    | Includes corrupt records in a "\_corrupt_record" column (default) |
-| `DROPMALFORMED` | Ignores all corrupted records                                     |
-| `FAILFAST`      | Throws an exception when it meets corrupted records               |
+| Parse Mode      | Behaviour                                                        |
+| --------------- | ---------------------------------------------------------------- |
+| `PERMISSIVE`    | Includes corrupt records in a `_corrupt_record` column (default) |
+| `DROPMALFORMED` | Ignores all corrupted records                                    |
+| `FAILFAST`      | Throws an exception when it meets corrupted records              |
 
 ```
 df = spark.read.option("mode", "PERMISSIVE").option("columnOfCorruptrecord", "_corrupt_record").csv("file.csv", header=True, inferSchema=True)

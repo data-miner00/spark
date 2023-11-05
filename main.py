@@ -14,3 +14,6 @@ df_thresh = df.na.drop(thresh=2)
 
 # show the results
 df_thresh.show()
+
+# jvm get version
+print(spark._sc._jvm.org.apache.hadoop.util.VersionInfo.getVersion())
