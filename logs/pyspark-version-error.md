@@ -31,3 +31,15 @@ py4j.Py4JException: Method legacyInferArrayTypeFromFirstElement([]) does not exi
         at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
         at java.base/java.lang.Thread.run(Thread.java:833)
 ```
+
+**The general rule of thumb is to make sure that the Pyspark version and Spark version to be the same.**
+
+If `pyspark==3.5.5`, then the Spark version should be `spark-3.5.5-bin-hadoop3.tgz`.
+
+To install `pyspark` with a specific version with `pip`, run `pip install pyspark==3.5.5`.
+
+Also make sure to set or update the `SPARK_HOME` environment variable that points to the folder where the Spark with the correct version resides.
+
+```
+export SPARK_HOME=C:/spark-3.5.5-bin-hadoop3
+```
